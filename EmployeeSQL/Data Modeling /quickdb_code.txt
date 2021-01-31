@@ -1,7 +1,7 @@
 Departments
 -
 dept_no PK varchar
-dept_name string
+dept_name varchar
 
 Dept_emp
 -
@@ -18,8 +18,8 @@ Employees
 emp_no PK integer
 emp_title_id varchar FK >- Titles.title_id
 birth_date varchar
-first_name string
-last_name string
+first_name varchar
+last_name varchar
 sex varchar
 hire_date varchar
 
@@ -31,6 +31,6 @@ salary integer
 Titles
 -
 title_id PK varchar
-title string
+title varchar
 
 
